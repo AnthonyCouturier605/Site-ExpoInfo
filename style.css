@@ -10,6 +10,9 @@
     display: flex;
     align-items:center;
     justify-content: left;
+
+
+    padding: 50px 10px;
 }
 .logo{
     margin: 50px 125px;
@@ -31,7 +34,7 @@
     max-width: 15%;
 }
 .person{
-
+    
 }
 .team{
     display: flex;
@@ -62,9 +65,11 @@ height: 64px;
     --bs-gutter-x: 1.5rem;
     --bs-gutter-y: 0;
     /* padding-top: calc(var(--bs-gutter-x) * .5); */
-    padding-left: calc(var(--bs-gutter-x) * .5);
+    /* padding-left: calc(var(--bs-gutter-x) * .5); */
 
-    padding-top: 115px;
+
+    padding: 0 !important;
+    padding-top: 80px !important;
 }
 
 .description{
@@ -128,12 +133,6 @@ height: 64px;
     text-align: center;
 }
 
-nav{
-    background-image: url("images/background2.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
 .nav-link{
     color: white !important;
 }
@@ -160,4 +159,24 @@ nav{
 
     z-index: 1;
     width: 100vw;
+
+    background-image: url("images/background2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.slime-dripless{
+    width: 100%;
+   
+    filter: invert(13%) sepia(17%) saturate(3508%) hue-rotate(105deg) brightness(99%) contrast(103%);
+   }
+
+
+.container-slime .padding{
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
 }
