@@ -1,0 +1,163 @@
+.box-art{
+    width: 100%;
+
+    background-image: url("images/box-art.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+
+    display: flex;
+    align-items:center;
+    justify-content: left;
+}
+.logo{
+    margin: 50px 125px;
+    max-height: 300px;
+    box-sizing: border-box;
+}
+@media screen and (max-width: 770px) {
+    .logo{
+        margin: 0px 0px;
+        width: 100%;
+        max-height: 500px;
+    }
+  }
+.screenshot{
+    margin: 10px;
+    max-width: 50%;
+}
+.small-screenshot{
+    max-width: 15%;
+}
+.person{
+
+}
+.team{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    text-align: center;
+    margin-bottom: 30px;
+}
+.slime-icon{
+height: 64px;
+}
+.node{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    border-bottom: 1px solid black;
+    padding: 50px 0px;
+}
+.container-slime{
+        background: rgb(0,121,44);
+    background: linear-gradient(85deg, rgba(0, 121, 44, 0.625) 0%, rgb(0, 125, 46) 65%, rgba(0, 70, 4, 0.816) 100%); 
+    
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    /* padding-top: calc(var(--bs-gutter-x) * .5); */
+    padding-left: calc(var(--bs-gutter-x) * .5);
+
+    padding-top: 115px;
+}
+
+.description{
+    font-size:larger;
+    border-bottom: 3px solid black;
+    padding-bottom: 30px;
+}
+
+#body{
+    /* background: rgb(0,121,44);
+    background: linear-gradient(85deg, rgba(0,121,44,1) 0%, rgb(0, 125, 46) 65%, rgba(0,70,3,1) 100%);  */
+/* 
+    background-image: url("images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
+    color: rgb(255, 255, 255);
+
+    background-color: rgb(0, 45, 17);
+}
+.big-splat{
+    background-image: url("images/big_splat.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#notre-equipe{
+    padding-bottom: 100px;
+    text-align: center;
+}
+.slime-drip{
+ width: 100%;
+ filter: invert(19%) sepia(86%) saturate(6146%) hue-rotate(152deg) brightness(94%) contrast(101%);
+
+
+}
+.no-padding{
+    padding: 0 !important;
+}
+.background-image{ 
+    background-image: url("images/background2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+
+    z-index: -1;
+}
+.person img{
+    max-width: 40%;
+}
+
+.signature{
+    max-height: 300px;
+}
+.text-center{
+    text-align: center;
+}
+
+nav{
+    background-image: url("images/background2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.nav-link{
+    color: white !important;
+}
+.nav-link:hover{
+    color: rgb(226, 226, 226) !important;
+}
+.nav-link:active{
+    color: white !important;
+}
+.container-slime a{
+    color: greenyellow;
+}
+.container-slime a:hover{
+    color: rgb(0, 255, 0);
+}
+.container-slime a:visited{
+    color: rgb(225, 255, 0);
+}
+
+.navbar{
+    position: fixed !important;
+    left: 0;
+    top: 0;
+
+    z-index: 1;
+    width: 100vw;
+}
