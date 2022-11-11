@@ -62,6 +62,21 @@ height: 64px;
 
     text-align: justify;
 }
+@media screen and (max-width: 770px) {
+    .node{
+    
+
+        justify-content:center;
+        flex-wrap: wrap;
+    }
+    .screenshot{
+        margin: 10px;
+        max-width: 100%;
+    }
+    .small-screenshot{
+        max-width: 15%;
+    }
+}
 .container-slime{
         background: rgb(0,121,44);
     background: linear-gradient(85deg, rgba(0, 121, 44, 0.625) 0%, rgb(0, 125, 46) 65%, rgba(0, 70, 4, 0.816) 100%); 
