@@ -181,6 +181,7 @@ height: 64px;
     z-index: 1;
     width: 100vw;
 
+    background-color: green;
     background-image: url("images/background2.png");
     background-repeat: no-repeat;
     background-size: cover;
