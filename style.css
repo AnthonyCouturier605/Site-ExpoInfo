@@ -66,8 +66,9 @@ height: 64px;
     .node{
     
 
-        justify-content:center;
-        flex-wrap: wrap;
+        display: flex;
+        flex-direction: column;
+
     }
     .screenshot{
         margin: 10px;
@@ -76,6 +77,14 @@ height: 64px;
     .small-screenshot{
         max-width: 15%;
     }
+      
+        .container .first_div {
+            order: 1;
+        }
+      
+        .container .second_div {
+            order: 2;
+        }
 }
 .container-slime{
         background: rgb(0,121,44);
@@ -234,3 +243,7 @@ height: 64px;
     }
 
 }
+
+@media (max-width: 30em) {
+    
+  }
