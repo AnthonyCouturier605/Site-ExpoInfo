@@ -79,11 +79,11 @@ height: 64px;
     }
       
         .container .first_div {
-            order: 1;
+            order: 2;
         }
       
         .container .second_div {
-            order: 2;
+            order: 1;
         }
 }
 .container-slime{

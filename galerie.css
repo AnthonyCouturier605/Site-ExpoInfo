@@ -1,0 +1,50 @@
+.image {
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.imageLayout {
+    flex:1;
+    /*width: 300px !important;
+    min-width:300px;
+    max-width: 400px;
+    */
+    align-content: stretch;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+@media (max-width: 800px) {
+    .image {
+        height: 220px;
+    }
+}
+.imageTitle {
+    font-size: 20px;
+    min-height: 32px;
+    font-weight: bold;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.imagesList {
+    display: flex;
+    flex-wrap:wrap;
+    gap: 15px;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+.textAlignCenter{
+    text-align: center;
+}
+.listTitle{
+    font-size: 24px;
+    min-height: 32px;
+    font-weight: bold;
+}
+.smallSignature{
+    max-height: 50px;
+}
