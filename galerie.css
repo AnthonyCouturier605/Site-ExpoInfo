@@ -1,8 +1,7 @@
 .image {
-    height: 250px;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    max-height: 250px;
+
+   
 }
 .imageLayout {
     flex:1;
@@ -13,10 +12,14 @@
     align-content: stretch;
     padding-left: 3%;
     padding-right: 3%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 @media (max-width: 800px) {
     .image {
-        height: 220px;
+        max-height: 220px;
+        max-width: 400px;
     }
 }
 .imageTitle {
