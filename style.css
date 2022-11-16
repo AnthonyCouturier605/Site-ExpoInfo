@@ -26,6 +26,11 @@
         max-height: 500px;
     }
   }
+  @media screen and (min-width: 770px) {
+    .person{
+        max-width: 50%;
+    }
+  }
 .screenshot{
     margin: 10px;
     max-width: 50%;
@@ -35,6 +40,10 @@
 }
 .person{
     min-width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 .team{
     display: flex;
@@ -44,7 +53,7 @@
     flex-wrap: wrap;
 
     text-align: center;
-    margin-bottom: 10%;
+    margin-bottom: 30px;
 }
 .slime-icon{
 height: 64px;
