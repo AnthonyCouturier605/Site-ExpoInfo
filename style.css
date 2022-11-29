@@ -256,3 +256,9 @@ height: 64px;
 @media (max-width: 30em) {
     
   }
+
+  .centerDiv{
+    text-align: center;
+    align-self: center;
+    margin: auto;
+  }
