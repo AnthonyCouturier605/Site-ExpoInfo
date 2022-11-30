@@ -262,3 +262,9 @@ height: 64px;
     align-self: center;
     margin: auto;
   }
+  .download{
+    max-width: 90%;
+  }
+  .downloadIFrame{
+    min-width: 50%;
+  }
